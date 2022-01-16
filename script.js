@@ -19,9 +19,11 @@ function generatePassword() {
   var choose = [""];
   //Password length
   var length = window.prompt("What is your length of required password?(Choose a number between 8 to 128)");
+    // Error Prompt
     if ((length < 8)||(length > 128)) {
        window.alert("Choose a number between 8 and 128");
-       return null;}
+       return null;
+      }
     //Lowercase
   var lower = window.confirm("Would you like to include lowercase characters?");
     if (lower === true) {
@@ -44,8 +46,8 @@ function generatePassword() {
   }
   //If no characters in password?
   if ((!lower)&&(!numbers)&&(!special)&&(!upper)) {
-    alert("Must choose at least one type!")
-    return null
+    alert("Must choose at least one type!");
+    return null;
   }
   //For loop to formulate the password
   for (var i = 0 ; i < length; i++) {
