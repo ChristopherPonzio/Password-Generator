@@ -4,7 +4,8 @@
 This is a password generator. It will generate a randomized password for the given criteria by the user.
 
 ## Installation
-
+https://christopherponzio.github.io/Password-Generator/
+https://github.com/ChristopherPonzio/Password-Generator/settings/pages
 
 ## Usage
 By Answering a few questions from a windows alert the password will be generated automatically once the Generate Password button is toggled.
