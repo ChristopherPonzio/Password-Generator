@@ -1,4 +1,4 @@
-# Password-Generator# Christopher-Ponzio-s-Portfolio
+# Password-Generator#
 
 ## Description
 This is a password generator. It will generate a randomized password for the given criteria by the user. The length varies from 8-128 characters. Based on user's choice it can include lowercase, uppercase, numbers, and symbols. 
